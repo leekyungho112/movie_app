@@ -18,3 +18,12 @@
     display: block;
     margin-top: 10px;
   }
+
+  @media screen and (max-width: 1090px) {
+    .about__container{
+      left: initial;
+      top: initial;
+      bottom: 0px;
+      width: 100%;
+    }
+  }
